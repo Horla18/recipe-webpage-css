@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 20px;
+}
+h1 {
+  text-align: center;
+  background-color: blue;
+  color: white;
+}
+/* Class */
+.p1{
+  background-color: blue;
+  color: black;
+}
+/* id */
+#p2{
+  background-color: red;
+  color: white;
+}
+/* decendant combinators ===== space */
+.main a{
+  background-color: yellow;
+  color: black;
+}
+h2 {
+  color: rgb(222, 128, 40);
+}
+.recipe {
+  background-color: lemonchiffon;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.instructions{
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.instructions {
+  margin-top: 20px;
+}
+
+.recipe .instructions li {
+  color: #666666;
+}
+li:nth-child(even){
+  background-color: green;
+  color: white;
+}
+li:nth-child(odd){
+  background-color: purple;
+}
